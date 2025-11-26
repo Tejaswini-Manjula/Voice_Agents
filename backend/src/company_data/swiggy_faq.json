@@ -1,0 +1,48 @@
+{
+  "company": "Swiggy",
+  "description": "Swiggy is one of India's largest on-demand delivery platforms, offering food delivery, Instamart groceries, Swiggy Genie pickup & drop service, and restaurant discovery.",
+  "faqs": [
+    {
+      "question": "What does Swiggy do?",
+      "answer": "Swiggy is an on-demand delivery platform offering food delivery from restaurants, instant grocery delivery via Instamart, and pickup & drop services via Swiggy Genie."
+    },
+    {
+      "question": "Does Swiggy offer grocery delivery?",
+      "answer": "Yes. Swiggy offers instant grocery delivery through Swiggy Instamart, available in most major cities in India."
+    },
+    {
+      "question": "Is there a delivery fee?",
+      "answer": "Delivery fees vary based on distance, restaurant demand, and time of day. Swiggy One subscribers get free delivery on eligible orders."
+    },
+    {
+      "question": "Does Swiggy have a subscription plan?",
+      "answer": "Yes. Swiggy One is Swiggy’s membership plan which offers free delivery, discounted fees, and benefits across food, Instamart, and Genie services."
+    },
+    {
+      "question": "What is Swiggy One?",
+      "answer": "Swiggy One is a paid subscription that provides unlimited free deliveries, lower service fees, and exclusive discounts across Swiggy services."
+    },
+    {
+      "question": "How does Swiggy Genie work?",
+      "answer": "Swiggy Genie is a pickup and drop service. You can send packages, documents, or small items to any location within the city using a Swiggy delivery partner."
+    },
+    {
+      "question": "Is Swiggy available in my city?",
+      "answer": "Swiggy is available in more than 500 cities across India, including all major metropolitan and tier-1 cities."
+    },
+    {
+      "question": "Do you offer restaurant partnerships?",
+      "answer": "Yes. Restaurants can partner with Swiggy to list their menu online, receive orders, and use Swiggy’s delivery network."
+    },
+    {
+      "question": "How can I contact support?",
+      "answer": "You can contact Swiggy support through the in-app Help section for order, payment, or delivery issues."
+    }
+  ],
+  "pricing": {
+    "swiggy_one_monthly": "Rs 199 per month",
+    "swiggy_one_yearly": "Rs 999 per year",
+    "delivery_fee": "Varies by distance, peak hours, and restaurant."
+  }
+}
+
