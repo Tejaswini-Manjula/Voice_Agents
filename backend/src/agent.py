@@ -4,6 +4,7 @@ import logging
 from dotenv import load_dotenv
 #livekit library imports for building conversational agents.
 #livekit provides a room for agent and human to talk in real time without pressing buttons.
+from Day6Agent import FraudAgent
 
 
 from livekit.agents import (
@@ -18,7 +19,8 @@ from livekit.agents import (
     metrics,
     tokenize,
 )
-from livekit.plugins import murf, silero, google, deepgram, noise_cancellation
+from livekit.plugins import silero, google, deepgram, noise_cancellation
+from livekit.plugins import murfai as murf
 from livekit.plugins.turn_detector.multilingual import MultilingualModel
 from tools.orderTool import save_order_to_json  # Import tool
 
@@ -100,7 +102,7 @@ async def entrypoint(ctx: JobContext):
 
     # Start agent (no tools here) ✔
     await session.start(
-        agent=Assistant(),
+        agent=FraudAgent(),
         room=ctx.room,
         room_input_options=RoomInputOptions(
             noise_cancellation=noise_cancellation.BVC(),
